@@ -1,0 +1,12 @@
+*
+!.gitignore
+
+!.bashrc
+!.bash_profile
+
+!.vimrc
+
+!.xinitrc
+!.Xresources
+
+!.i3

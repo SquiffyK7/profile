@@ -1,0 +1,8 @@
+xterm*faceName: DejaVu Sans Mono Book
+xterm*faceSize: 14
+
+xterm*foreground: #dadada
+xterm*background: #1c1c1c
+
+xterm*termName: xterm-256color
+xterm*antialias: true
