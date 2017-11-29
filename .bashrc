@@ -6,6 +6,8 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+alias grep='grep --color=auto'
+#PS1='[\u@\h \W]\$ '
+PS1='\u@\h:\W\$ '
 
 PATH=$PATH:/home/lewis/bin
