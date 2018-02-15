@@ -187,3 +187,4 @@ bar {
 
 exec xrdb ~/.Xresources
 exec feh --bg-scale ~/Pictures/dota_wallpaper.jpg
+exec redshift-gtk
