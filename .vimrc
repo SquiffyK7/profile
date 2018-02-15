@@ -17,4 +17,4 @@ set cursorline
 
 set hlsearch
 
-colorscheme mustang
+colorscheme dracula
