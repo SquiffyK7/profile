@@ -33,5 +33,3 @@ rightprompt() {
 }
 
 export PS1='\[$(STAT="$?"; tput sc; rightprompt "$STAT"; tput rc)\]\u@\h:\W\$ '
-
-PATH=$PATH:/home/lewis/bin
