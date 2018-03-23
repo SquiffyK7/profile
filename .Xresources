@@ -5,31 +5,51 @@ xterm*termName: xterm-256color
 xterm*antialias: true
 
 *.foreground: #F8F8F2
-#*.background: #282A36 old dracula background
 *.background: #171717
 
-*.color0:     #000000
-*.color8:     #4D4D4D
+! Unkown colours
+!*.color0:     #000000
+*.color0:     #ff00ff
+!*.color7:     #BfBfBf
+*.color7:     #ff00ff
+!*.color8:     #4D4D4D
+*.color8:     #ff00ff
+!*.color15:    #E6E6E6
+*.color15:    #ff00ff
 
+! Git Untracked
 *.color1:     #FF5555
+
+! Git changes to be committed
+*.color2:     #50FA7B
+
+! Git commit name (in log)
+*.color3:     #F1Fa8C
+
+! less search background
+*.color4:     #BD93F9
+
+! Grep file name
+*.color5:     #FF79C6
+
+! Diff position markers
+*.color6:     #8BE9FD
+
+! Git log remote branch name in log (e.g. origin/master)
 *.color9:     #FF6E67
 
-*.color2:     #50FA7B
-*.color10:    #5AF78E
-
-*.color3:     #F1FA8C
+! Less search foreground
 *.color11:    #F4F99D
 
 ! directories
-*.color4:     #BD93F9
-*.color12:    #CAA9FA
+*.color12:    #1DB954
 
-*.color5:     #FF79C6
+! pacman -Ss repository name
 *.color13:    #FF92D0
 
-! executables
-*.color6:     #8BE9FD
-*.color14:    #9AEDFE
+! links
+*.color14:    #87FFFF
 
-*.color7:     #BFBFBF
-*.color15:    #E6E6E6
+! executables
+*.color10:    #FFFF87
+
