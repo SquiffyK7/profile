@@ -42,7 +42,7 @@ xterm*antialias: true
 *.color11:    #F4F99D
 
 ! directories
-*.color12:    #1DB954
+*.color12:    #D75F5F
 
 ! pacman -Ss repository name
 *.color13:    #FF92D0
