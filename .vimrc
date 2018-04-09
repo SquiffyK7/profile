@@ -18,3 +18,10 @@ set cursorline
 set hlsearch
 
 colorscheme dracula
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'lervag/vimtex'
+
+call plug#end()
+let g:vimtex_view_method = 'mupdf'
