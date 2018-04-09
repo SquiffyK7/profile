@@ -19,10 +19,11 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 alias ls='ls --color=auto'
-alias vi='vim'
+alias vi='vim --servername VIM'
 alias grep='grep --color=auto'
 alias diff='diff --color=auto'
 alias py='python'
+alias pdf='mupdf'
 
 rightprompt() {
   if [[ "$1" == 0 ]]; then
@@ -32,4 +33,4 @@ rightprompt() {
   fi
 }
 
-export PS1='\[$(STAT="$?"; tput sc; rightprompt "$STAT"; tput rc)\]\u@\h:\W\$ '
+export PS1='\[$(STAT="$?"; tput sc; rightprompt "$STAT"; tput rc; tput setaf 2)\]\u@\h:\W\$\[$(tput sgr0)\] '
